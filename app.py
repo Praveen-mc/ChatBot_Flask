@@ -1,5 +1,6 @@
 import nltk
-#nltk.download('popular')
+#nltk.download('popular') 
+#the above line of code executes on the first compilation,you need to download the package 'popular'.
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 import pickle
